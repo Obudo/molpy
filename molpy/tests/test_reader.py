@@ -1,6 +1,7 @@
 # Import package, test suite, and other packages as needed
 import molpy
 import pytest
+import numpy as np
 
 def test_reader():
     assert molpy.data.look_and_say == molpy.data.reader.look_and_say
