@@ -1,8 +1,8 @@
 molpy
 ==============================
 [//]: # (Badges)
-[![Travis Build Status](https://travis-ci.com/REPLACE_WITH_OWNER_ACCOUNT/molpy.svg?branch=master)](https://travis-ci.com/REPLACE_WITH_OWNER_ACCOUNT/molpy)
-[![codecov](https://codecov.io/gh/REPLACE_WITH_OWNER_ACCOUNT/molpy/branch/master/graph/badge.svg)](https://codecov.io/gh/REPLACE_WITH_OWNER_ACCOUNT/molpy/branch/master)
+[![Travis Build Status](https://travis-ci.com/Obudo/molpy.svg?branch=master)](https://travis-ci.com/Obudo/molpy)
+[![codecov](https://codecov.io/gh/Obudo/molpy/branch/master/graph/badge.svg)](https://codecov.io/gh/Obudo/molpy/branch/master)
 
 A programming practices workshop project.
 
