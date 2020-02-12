@@ -8,7 +8,7 @@ A short description of the project.
 
 ### Copyright
 
-Copyright (c) 2020, Luca Pasquali Inc.
+Copyright (c) 2020, Luca Pasquali
 
 
 #### Acknowledgements
