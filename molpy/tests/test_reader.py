@@ -18,3 +18,7 @@ def test_read_xyz(molecule, com, natoms):
     assert np.allclose(np.mean(mol["geometry"], axis=0), com)
     assert len(mol["geometry"]) == natoms    
     assert len(mol["symbols"]) == natoms
+
+def test_get_missing_molecule():
+    with pytest.raises(OSError):
+        mol = molpy.data.get_molecule("missing")
