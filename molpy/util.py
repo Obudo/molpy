@@ -23,7 +23,22 @@ def distance(point1, point2):
     return retval
 
 
-def open_xyz(file_location):
+def read_xyz(file_location):
+    '''
+    Reads the contents of a .xyz file
+    
+    Parameters
+    ----------
+    filename: string
+        Location of the .xyz file to read
+
+    Returns
+    -------
+    symbols: numpy.array
+        Symbols associated with each atom in the .xyz file
+    coordinates: numpy.array
+        xyz position asssociated to each atom in the .xyz file
+    '''
     xyz_file = np.genfromtxt(fname=file_location, skip_header=2, dtype='unicode')
     symbols = xyz_file[:, 0]
     coords = (xyz_file[:, 1:])
