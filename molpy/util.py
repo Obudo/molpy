@@ -34,9 +34,9 @@ def read_xyz(file_location):
 
     Returns
     -------
-    numpy array
+    symbols: numpy.array
         Symbols associated with each atom in the .xyz file
-    numpy array
+    coordinates: numpy.array
         xyz position asssociated to each atom in the .xyz file
     '''
     xyz_file = np.genfromtxt(fname=file_location, skip_header=2, dtype='unicode')

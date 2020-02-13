@@ -19,7 +19,7 @@ def get_molecule(mol_name):
 
     Returns
     -------
-    (dict. of strings: numpy array)
+    dictionary 
         Molecule data, with key "symbols" and "geometry" for the list of atomic symbols and atomic xyz positions respectively
     '''
     data_dirname = os.path.dirname(os.path.abspath(__file__))
