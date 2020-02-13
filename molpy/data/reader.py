@@ -15,5 +15,5 @@ def get_molecule(mol_name):
     sym, coor = open_xyz(filename)
     molecule = {}
     molecule["geometry"] = coor
-    molecule["structure"] = sym
+    molecule["symbols"] = sym
     return molecule
