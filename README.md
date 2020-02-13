@@ -3,6 +3,7 @@ molpy
 [//]: # (Badges)
 [![Travis Build Status](https://travis-ci.com/Obudo/molpy.svg?branch=master)](https://travis-ci.com/Obudo/molpy)
 [![codecov](https://codecov.io/gh/Obudo/molpy/branch/master/graph/badge.svg)](https://codecov.io/gh/Obudo/molpy/branch/master)
+[![docs](https://readthedocs.org/projects/docs/badge/?version=latest)](https://readthedocs.org/projects/luca-molpy/)
 
 A programming practices workshop project.
 
